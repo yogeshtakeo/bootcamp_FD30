@@ -1,0 +1,13 @@
+hey this is the new file
+
+
+git init
+
+git remote add origin https://github.com/yogeshtakeo/bootcamp_FD30.git
+
+
+A --- added ( yellow )
+
+U --- new folder created / untitled  (green)
+
+D ---- deleted (red)
