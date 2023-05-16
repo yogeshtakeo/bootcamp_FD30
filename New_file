@@ -1,13 +1,11 @@
-
-
-git commands
-----------------
-
+## git commands
 
 git init ----- insert / initialize git into the system/ folder
 
 git remote add origin <remote_url> ------ linking the local folder to the online folder
 
+git add <file_name> ----- choosing the change / git add . <---- it will add everything to staging area
 
+git commit -m "title here" <---- naming our changes ( putting a label on the change)
 
-git add . ----- 
+git push (for the first time on branch or any creation of folder do git push -u origin <branch_name>) <------ this will push the changes ( labeled changes ) to the origin repo / online folder
