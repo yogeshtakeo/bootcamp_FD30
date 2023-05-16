@@ -1,15 +1,13 @@
-hey this is the new file
 
 
-git init
+git commands
+----------------
 
-git remote add origin https://github.com/yogeshtakeo/bootcamp_FD30.git
+
+git init ----- insert / initialize git into the system/ folder
+
+git remote add origin <remote_url> ------ linking the local folder to the online folder
 
 
-A --- added ( yellow )
 
-U --- new folder created / untitled  (green)
-
-D ---- deleted (red)
-
-hey this is the yogesh change and the developer version of git.
+git add . ----- 
