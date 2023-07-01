@@ -1,6 +1,4 @@
 import { useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
 import "./App.css";
 
 function App() {
@@ -34,15 +32,14 @@ function App() {
         />
         <input
           type="number"
-          placeholder="Contact Number"
           onChange={onContactNumber}
+          placeholder="Contact Number"
         />
         <input type="file" />
         <input type="color" />
 
         <button onClick={handleEvent}>Submit</button>
       </div>
-      {/*  , kabina , junu ,  */}
     </>
   );
 }
