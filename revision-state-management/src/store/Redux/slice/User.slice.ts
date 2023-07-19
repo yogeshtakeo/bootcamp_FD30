@@ -8,7 +8,8 @@ const UserSlice = createSlice({
     date: "",
   },
   reducers: {
-    login() {
+    login(state, action) {
+      const { payload } = action;
       return {
         ...state,
         name: payload.user.name,
@@ -16,7 +17,7 @@ const UserSlice = createSlice({
         date: new Date().toLocaleTimeString(),
       };
     },
-    logout() {
+    logout(state) {
       return {
         ...state,
         name: "",

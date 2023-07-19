@@ -7,7 +7,7 @@ function App() {
   return (
     <UserContextProvider>
       {/* <LoginComponent /> */}
-      {/* <HomeComponent /> */}
+      <HomeComponent />
     </UserContextProvider>
   );
 }
